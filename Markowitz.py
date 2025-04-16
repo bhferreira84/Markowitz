@@ -6,9 +6,15 @@ from scipy.optimize import minimize
 import plotly.graph_objects as go
 
 
-def obter_dados_ativos(tickers, benchmark):
+def obter_dados_ativos(tickers, benchmark, start=None, end=None):
     """
     Obtém dados históricos de fechamento dos ativos e do benchmark usando Yahoo Finance.
+    
+    Parâmetros:
+    tickers (str ou list): Lista de tickers dos ativos
+    benchmark (str): Ticker do benchmark
+    start (str ou datetime, opcional): Data inicial para obtenção dos dados
+    end (str ou datetime, opcional): Data final para obtenção dos dados
     """
     dados = yf.download(tickers, start=start, end=end, auto_adjust=False)['Adj Close']
     benchmark = yf.download(benchmark, start=start, end=end, auto_adjust=False)['Adj Close']
@@ -177,5 +183,3 @@ if __name__ == "__main__":
     # Plotar gráfico interativo
     plotar_fronteira_interativa(retornos_alvo, volatilidades, retorno_esperado_ativos, matriz_cov, pesos_max_sharpe, taxa_livre_risco) 
     
-    import sys
-print(sys.executable)
