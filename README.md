@@ -16,5 +16,5 @@ Linguagem de Programação _Python_
 5. _Scipy_ 
 6. _Plotly_
 
-# Arquivos do repositório e como devem ser utilizados
+## Arquivos do repositório e como devem ser utilizados
 O arquivo [Markowitz.ipynb](https://github.com/C418fan/pi4/blob/30_04/Markowitz.ipynb) trata-se da formação da fronteira. Já o [appy.py](https://github.com/C418fan/pi4/blob/30_04/app.py) nos gera uma UI(interface do usuário) onde o mesmo pode colocar manualmente suas bolsas, métricas e visualizar graficamente os resultados.
