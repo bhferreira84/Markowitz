@@ -18,3 +18,6 @@ Linguagem de Programação _Python_
 
 ## Arquivos do repositório e como devem ser utilizados
 O arquivo [Markowitz.ipynb](https://github.com/C418fan/pi4/blob/30_04/Markowitz.ipynb) trata-se da formação da fronteira. Já o [appy.py](https://github.com/C418fan/pi4/blob/30_04/app.py) nos gera uma UI(interface do usuário) onde o mesmo pode colocar manualmente suas bolsas, métricas e visualizar graficamente os resultados.
+
+## Estatística Descritiva e Correlação
+(_Python Notebook_)[https://colab.research.google.com/drive/19FJMsNqKhv_zX_gtVXlzOTyWMWPocK33?usp=sharing#scrollTo=dry5208_JK_Q] o arquivo "" anteriormente linkado, apresenta as estatísticas descritivas referentes ao projeto junto com a matriz de correlação usando as bolsas "KLBN11.SA, PETR3.SA, BBAS3.SA, ITSA4.SA, ABEV3.SA" como template
